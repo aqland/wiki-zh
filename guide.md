@@ -24,55 +24,62 @@
 
 注意：如果玩家正在玩基岩版，請同時輸入點（在玩家 ID 前面）
 
-Example:  
+例子:  
 `/tpa .Notch`  
 `/tpa Notch`  
 
 ## 查詢  
 
-`/list`: List all online players.  
+| 命令 | 說明 |
+| - | - |
+| `/list` | 列出所有在線玩家 |
+| `/ping` | Pong! |
+| `/rg info` | 顯示有​​關您當前位置的區域信息 |
+| `/rg list` | 列出您自己的區域 |
+| `/rules` | 查看伺服器規則 |
+| `/tps` | 獲取伺服器當前的每秒刻數 |
+| `/warnings` | 顯示自己近期的警告 |
+| `/dupeip <player>`<br>`/alts <player>` | 顯示共享同一IP位址的玩家 |
 
 ### 調查員模式  
 
-Enable: `/co i`  
-Disable: `/co i`  
+啟用: `/co i`  
+禁用: `/co i`  
 
-You can use it if you found your builds are being grieved.  
-Feel free to report to the admins  
+如果你發現你的建築被破壞，你可以使用它。  
+歡迎隨時向管理員報告  
 
 ## 经济  
 
 | 命令 | 說明 |
 | - | - |
-| `/bal`<br>`/balance` | to check your balance |
-| `/baltop`<br>`/balancetop` | to check the most top players balances |
+| `/bal`<br>`/balance`<br>`/money` | 檢查您的餘額 |
+| `/baltop`<br>`/balancetop` | 查看富豪榜(不包括銀行存款) |
+| `/pay <player> <amount>` | 付款給其他玩家 |
+| `/worth <<itemname>\|<id>\|hand\|inventory\|blocks> [-][amount]` | 查看手上或指定物品的建議價格 |
 
 ### Selling  
 
-`/sell hand`: sell the selected object to the server  
+`/sell hand`: 將選中的物品賣給伺服器  
 
-`/sell all`: sell all objects in your inventory to the server  
+`/sell all`: 將背包中的所有物品出售給伺服器  
 
-Note: it might not be funtionalble  
+注意：該指令可能無法正常使用  
 
 ### 管理您的店鋪  
 
 | 命令 | 說明 |
 | - | - |
-| `/shop help` | a list which includes all /sell commands |
-| `/shop buy` | change the shop to buy mode |
-| `/shop sell` | change the shop to sell mode |
-| `/shop remove` | remove the shop |
+| `/shop help` | 顯示商店的幫助 |
+| `/shop buy` | 變更商店為購買模式 |
+| `/shop sell` | 變更商店為出售模式 |
+| `/shop remove` | 移除商店 |
 
-How to create a shop  
-
-You can create a shop at COSTCO or your base  
-
-To create a shop you need a chest and the selected goods  
-
-Place the chest and break it with the selected good  
-
-Then type in the amount  
+如何創建商店  
+您可以在 COSTCO 或您的建築裏創建商店  
+要創建商店，您需要一個箱子和選定的商品  
+拿着選定的商品長按箱子  
+然後輸入金額  
 
 ## 聊天
 
