@@ -102,15 +102,15 @@
 | `/bl <lineNumber> <value>`<br>`/blocklocker <lineNumber> <value>` | 編輯您的木牌鎖 |  |
 | `/kit`<br>`/kits` | 打開領取禮包GUI |  |
 
-### Music  
+### 音樂  
 
-`/jukebox`: select the music you want to play  
+`/jukebox`: 選擇要播放的音樂  
 
-`/music`: works the same with /jukebox  
+`/music`: 與 /jukebox 相同  
 
-`/musicbox`: music, but with more choices  
+`/musicbox`: 音樂，但有更多選擇  
 
-I recommend /musicbox  
+我推薦 /musicbox  
 anime  
 
 ## MCMMO  
@@ -147,34 +147,34 @@ https://mcmmo.fandom.com/wiki/
 ### mcMMO命令  
 | 命令 | 說明 |
 | - | - |
-| `/mcability` | Toggle mcMMO abilities being readied on right-click on/off |
-| `/mccooldown` | View all of the mcMMO ability cooldowns |
-| `/mcinspect <player>`<br>`/mmoinspect` | View detailed mcMMO info on another player |
-| `/mcmmo help` | Showing help for mcMMO |
-| `/mcnotify` | Toggle mcMMO abilities chat display notifications on/off |
-| `/mcrank` | shows rank |
-| `/mcstats` | View your mcMMO stats |
-| `/mctop` | Leaderboards |
-| `/mmoinfo` | Read details about a skill or mechanic |
-| `/mmoxpbar <reset \| disable>`<br>`/mmoxpbar <show \| hide \| disable> <skillname>` | Player settings for mcMMO XP bars |
+| `/mcability` | 打開/關閉右擊時正在準備的mcMMO能力 |
+| `/mccooldown` | 查看所有的mcMMO能力的冷卻時間 |
+| `/mcinspect <player>`<br>`/mmoinspect` | 查看另一個玩家的詳細mcMMO訊息 |
+| `/mcmmo help` | 顯示mcMMO的幫助 |
+| `/mcnotify` | 打開/關閉mcMMO能力的聊天顯示通知 |
+| `/mcrank` | 顯示等級 |
+| `/mcstats` | 查看你的mcMMO統計訊息 |
+| `/mctop` | 排行榜 |
+| `/mmoinfo` | 讀取有關技能或機械的詳細訊息 |
+| `/mmoxpbar <reset \| disable>`<br>`/mmoxpbar <show \| hide \| disable> <skillname>` | 玩家對mcMMO XP欄的設置 |
 
-### mcMMO Party  
+### mcMMO派對  
 | 命令 | 說明 |
 | - | - |
-| `/p`<br>`/partychat`<br>`/pc`<br>`/pchat` | Toggle partychat |
-| `/party HELP` | Party help |
-| `/ptp` | Teleport to an mcMMO party member |
+| `/p`<br>`/partychat`<br>`/pc`<br>`/pchat` | 切換聚會聊天 |
+| `/party HELP` | 顯示Party的幫助 |
+| `/ptp` | 傳送到一個mcMMO派對成員身邊 |
 
-### Guild  
+### 公會  
 | 命令 | 說明 |
 | - | - |
-| `/guild` | Showing help for guild |
+| `/guild` | 顯示Guild的幫助 |
 
-## Link account  
+## 關聯帳號  
 | 命令 | 說明 |
 | - | - |
-| `/discord` | Show the invite link of the Discord server |
-| `/discord link` | Link Minecraft account with Discord account |
-| `/dynmap webregister` | Get the registration code for dynmap |
-| `/linkaccount <player> [code]` | Link your bedrock and java account for local linking |
-| `/unlinkaccount` | Unlink your bedrock and java account for local linking |
+| `/discord` | 顯示 Discord 伺服器的邀請鏈接 |
+| `/discord link` | 將 Minecraft 帳戶與 Discord 帳戶關聯 |
+| `/dynmap webregister` | 獲取 dynmap 的註冊碼 |
+| `/linkaccount <player> [code]` | 鏈接您的基岩和java帳戶(本地鏈接) |
+| `/unlinkaccount` | 取消鏈接您的基岩和 java 帳戶(本地鏈接) |
