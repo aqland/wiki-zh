@@ -3,7 +3,7 @@
 
 - 快速開始
   - [游戲規則](zh-hk/rules.md)
-  - [🚧常用指令](zh-hk/guide.md)
+  - [常用指令](zh-hk/guide.md)
 - 游戲世界
   - [🚧維度列表](zh-hk/aqualand/worlds.md)
   - [🚧玩家公會](zh-hk/aqualand/guilds.md)
