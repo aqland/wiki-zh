@@ -1,26 +1,28 @@
-﻿# 歡迎來到 Aqualand!
+﻿# 歡迎來到 Aqualand!  
 
 這是一個可能對您有所幫助的命令指南。  
 
 > `[]` 標識一個可選參數  
 > `<>` 標識一個必填參數  
 
-## 傳送
-
-To TP  
+## 傳送  
 
 | 命令 | 說明 | 費用 |
 | - | - | - |
-| `/rtp` | random tp | $20 |
-| `/warp` | select warp point | $15 |
-| `/sethome` | set home | $300 |
-| `/home` | tp you to the home you have set | $20 |
-| `/suicide` | suicide | $10 |
-| `/back` | tp you to the last place you died | $30 |
-| `/tpa <player ID>` | Request tp to player | $20 |
-| `/tpahere <player ID>` | Request player tp to you | $20 |
+| `/rtp`<br>`/randomtp` | 隨機傳送 | $20 |
+| `/warp [name]` | 選擇傳送點或傳送到指定位置 | $15 |
+| `/sethome <name>` | 將家設置為您當前的位置 | $300 |
+| `/delhome <name>` | 移除一個家 |  |
+| `/home <name>` | 傳送到你家 | $20 |
+| `/suicide` | 自殺 | $10 |
+| `/back` | 傳送到你上次死去的地方 | $30 |
+| `/tpa <player>` | 請求將自己傳送到對方的位置 | $20 |
+| `/tpahere <player>` | 請求將對方傳送到自己的位置 | $20 |
+| `/tpacancel [player]` | 取消所有未完成的傳送請求。指定[player]以取消與他們的請求 |  |
+| `/tpaaccept [player\|*]` | 接受傳送請求 |  |
+| `/tpadeny [player\|*]` | 拒絕傳送請求 |  |
 
-Note: if the player is playing bedrock edition please type the dot( in front of the player ID) as well  
+注意：如果玩家正在玩基岩版，請同時輸入點（在玩家 ID 前面）
 
 Example:  
 `/tpa .Notch`  
