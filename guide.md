@@ -58,7 +58,7 @@
 | `/pay <player> <amount>` | 付款給其他玩家 |
 | `/worth <<itemname>\|<id>\|hand\|inventory\|blocks> [-][amount]` | 查看手上或指定物品的建議價格 |
 
-### Selling  
+### 銷售  
 
 `/sell hand`: 將選中的物品賣給伺服器  
 
@@ -83,24 +83,24 @@
 
 ## 聊天
 
-### Mail  
-
-`/mail <player ID> <your words>`  
-
-### To sit  
-
-`/sit`  
-
-### To afk  
-
-`/afk`  
-
-### Items
-
 | 命令 | 說明 |
 | - | - |
-| `/itemname` | Renames the item your currently holding |
-| `/hat` | Get some cool new headgear |
+| `/msg`<br>`/m`<br>`/pm`<br>`/t`<br>`/tell`<br>`/w`<br>`/whisper` | 向指定玩家發送私信 |
+| `/r`<br>`/reply` | 快速回复上一位給你發消息的玩家 |
+| `/teammsg <message>` | 向運行命令的實體的團隊中的所有玩家發送消息 |
+| `/mail [read\|clear\|clear [number]\|send [to] [message]]` | 管理郵件 |
+
+## 雜項  
+
+| 命令 | 說明 | 費用 |
+| - | - | - |
+| `/afk` | 將您標記為離開 |  |
+| `/hat`<br>`/head` | 獲得一些很酷的新頭飾 |  |
+| `/sit` | 坐 |  |
+| `/skin [help\|set <skin>\|clear\|update\|url <SkinUrl> [steve/slim]]` | 管理你的皮膚 |  |
+| `/itemname [name]` | 重命名您當前持有的物品。將名稱留空以重置。您可以添加顏色代碼 | $5 |
+| `/bl <lineNumber> <value>`<br>`/blocklocker <lineNumber> <value>` | 編輯您的木牌鎖 |  |
+| `/kit`<br>`/kits` | 打開領取禮包GUI |  |
 
 ### Music  
 
@@ -113,8 +113,68 @@
 I recommend /musicbox  
 anime  
 
-## MCMMO技能  
+## MCMMO  
 
-### Fishing  
+https://mcmmo.fandom.com/wiki/
 
-`/fishing`: to check your fishing status  
+### MCMMO技能  
+
+#### -=採集系技能=-  
+| 命令 | 說明 |
+| - | - |
+| `/excavation` | 顯示您的土壤學統計數據 |
+| `/fishing` | 顯示您的釣魚學統計數據 |
+| `/herbalism` | 顯示您的草藥學統計數據 |
+| `/mining` | 顯示您的礦物學統計數據 |
+| `/woodcutting` | 顯示您的伐木學統計數據 |
+#### -=格鬥系技能=-  
+| 命令 | 說明 |
+| - | - |
+| `/archery` | 顯示您的箭術統計數據 |
+| `/axes` | 顯示您的斧技統計數據 |
+| `/swords` | 顯示您的劍術統計數據 |
+| `/taming` | 顯示您的馴獸統計數據 |
+| `/unarmed` | 顯示您的格鬥統計數據 |
+#### -=雜項技能=-  
+| 命令 | 說明 |
+| - | - |
+| `/acrobatics` | 顯示您的體術統計數據 |
+| `/alchemy` | 顯示您的煉金統計數據 |
+| `/repair` | 顯示您的修理統計數據 |
+| `/salvage` | 顯示您的回收統計數據 |
+| `/smelting` | 顯示您的冶煉統計數據 |
+
+### mcMMO命令  
+| 命令 | 說明 |
+| - | - |
+| `/mcability` | Toggle mcMMO abilities being readied on right-click on/off |
+| `/mccooldown` | View all of the mcMMO ability cooldowns |
+| `/mcinspect <player>`<br>`/mmoinspect` | View detailed mcMMO info on another player |
+| `/mcmmo help` | Showing help for mcMMO |
+| `/mcnotify` | Toggle mcMMO abilities chat display notifications on/off |
+| `/mcrank` | shows rank |
+| `/mcstats` | View your mcMMO stats |
+| `/mctop` | Leaderboards |
+| `/mmoinfo` | Read details about a skill or mechanic |
+| `/mmoxpbar <reset \| disable>`<br>`/mmoxpbar <show \| hide \| disable> <skillname>` | Player settings for mcMMO XP bars |
+
+### mcMMO Party  
+| 命令 | 說明 |
+| - | - |
+| `/p`<br>`/partychat`<br>`/pc`<br>`/pchat` | Toggle partychat |
+| `/party HELP` | Party help |
+| `/ptp` | Teleport to an mcMMO party member |
+
+### Guild  
+| 命令 | 說明 |
+| - | - |
+| `/guild` | Showing help for guild |
+
+## Link account  
+| 命令 | 說明 |
+| - | - |
+| `/discord` | Show the invite link of the Discord server |
+| `/discord link` | Link Minecraft account with Discord account |
+| `/dynmap webregister` | Get the registration code for dynmap |
+| `/linkaccount <player> [code]` | Link your bedrock and java account for local linking |
+| `/unlinkaccount` | Unlink your bedrock and java account for local linking |
