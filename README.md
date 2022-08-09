@@ -8,12 +8,6 @@ Java版端口: `25565`
 ### 🌐 **網站**  
 https://aqualand.u3002.com/   
 
-### 🗺️ **伺服器地圖**  
-Dynmap: https://aqualand.u3002.com/maps  
-~~Overviewer: https://aqualand.u3002.com/maps~~  
-~~Pl3xMap: https://aqualand.u3002.com/map~~  
-~~BlueMap: https://aqualand.u3002.com/live~~  
-
 Link your account in-game by typing `/discord link`  
 Send code to IRC Bot: @AqualandIRC#9055  
 Then you can chat in #irc channel.  
